@@ -1,5 +1,5 @@
-import 'package:auto_bright/autoBright.dart';
-import 'package:auto_bright/thermostatUI.dart';
+
+import 'package:auto_bright/thermostat_ui.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -33,7 +33,6 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-   //body: AutoBright(),
 body: ThermoStatUi()
     );
   }
